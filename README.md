@@ -11,11 +11,16 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
+#load server
+Open new terminal
+got to '/api' folder
+node server.js
 
-# build for production and view the bundle analyzer report
-npm run build --report
+Used RethinkDB local database
+db: test
+table: youtubeApp
+table: youtubeAppEmails
+
 
 # run unit tests
 npm run unit

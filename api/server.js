@@ -15,7 +15,7 @@ let YouTube = require('youtube-node');
 
 let youTube = new YouTube();
 
-youTube.setKey('AIzaSyB1OOSpTREs85WUMvIgJvLTZKye4BVsoFU');
+youTube.setKey('');
 app.use(logger('dev'));
 app.use(bodyParser.json({
   limit: '50mb'
@@ -46,8 +46,8 @@ var transport = nodemailer.createTransport({
   host: "smtp.mailtrap.io",
   port: 2525,
   auth: {
-    user: "63a6a7bd9986bd",
-    pass: "928ab9a34325e9"
+    user: "",
+    pass: ""
   }
 });
 
